@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-image: url('../images_dark/rotonta.jpg');
+    background-size:cover;
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(212, 212, 212);
+
+}
+
+.title{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    
+}
+
+.main-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.we-are{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+   
+
+    
+}
+
+.container-we-are{
+    position: relative;
+    top: 90px;
+    width: 600px;
+    margin-left: 200px;
+   
+    border-radius: 10px;
+    padding: 5px;
+   
+    
+}
+
+.big-title{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: rgb(253, 253, 253);
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.paragraph{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    letter-spacing: 1px;
+    
+}
+
+.photo-cont{
+    margin-top: 9px;
+    padding: 10px;
+    margin-left: 450px;
+    
+
+    width: 100px;
+    height: 130px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: static;
+        margin: auto;
+       
+    }
+    .main-menu {
+        width: 80%; /* Adjust width for smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-we-are{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .paragraph{
+        width: 60%;
+    }
+
+    .photo-cont{
+        margin: auto;
+        margin-top: 30px;
+    }
+
+}
+

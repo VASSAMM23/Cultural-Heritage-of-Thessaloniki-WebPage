@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="monuments.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/transliteration@2.3.2/dist/browser/transliteration.min.js"></script>
+    <title>e-Monumetns</title>
+</head>
+<body>
+
+
+  
+
+    
+    <div class="monuments">
+        <div class="menu">
+            <div class="title"><p>e-Monuments Greece</p></div>
+            <div class="main-menu">
+                <p><a href="index.html">Αρχική</a></p>
+                <p><a href="monuments.html">Μνημεία & Πολιτιστικά Στοιχεία</a></p>
+                <p><a href="we-are.html">Ποιοι είμαστε</a></p>
+                <p><a href="maps.html">Χάρτες</a></p>
+                <p><a href="line50.html">Γραμμή 50</a></p>
+                <p><a href="umnoi.html">Ύμνοι</a></p>
+
+
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Βρες Μνημείο">
+            <button id="search-btn">Αναζήτηση</button>
+
+        </div>
+        <div class="warning">
+            <i class="bi bi-exclamation-circle-fill"></i>
+            <p>Η Αναζήτηση λειτουργεί μόνο στα greeklish</p>
+        </div>
+
+        <div class="non-exist" ><h3>"Δεν βρέθηκαν μνημεία"</h3></div>
+        
+        <div class="monument" id="rotonta">
+            <div class="img-monu">
+                <img src="images/rotonta.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Ροτόντα Θεσσαλονίκη</div>
+                <div class="btn-monu"><p><a href="quickview.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="agios nikolaos">
+            <div class="img-monu">
+                <img src="images/nikolaos.png" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu"> Ναός Αγίου Νικολάου</div>
+                <div class="btn-monu"><p><a href="quickview-nikolaos.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="anaktora galeriou">
+            <div class="img-monu">
+                <img src="images/galerios.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu"> Ανάκτορα Γαλέριου</div>
+                <div class="btn-monu"><p><a href="quickview-galerios.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="plateia aristotelous">
+            <div class="img-monu">
+                <img src="images/plateia-aristotelous.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Πλατεία Αριστοτέλους</div>
+                <div class="btn-monu"><p><a href="quickview-aristotelous.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="naos panagias lagoudianis">
+            <div class="img-monu">
+                <img src="images/lagoud.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Ναός Παναγίας Λαγουδιανής</div>
+                <div class="btn-monu"><p><a href="quickview-lagoudiani.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="naos taxiarxon">
+            <div class="img-monu">
+                <img src="images/tax.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Ναός Ταξιαρχών</div>
+                <div class="btn-monu"><p><a href="quickview-taxiarxon.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="moni vlatadon">
+            <div class="img-monu">
+                <img src="images/monivlat.png" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Μονή Βλατάδων</div>
+                <div class="btn-monu"><p><a href="quickview-monivlat.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="purgos trigoniou">
+            <div class="img-monu">
+                <img src="images/trigoniou.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Πύργος Τριγωνίου</div>
+                <div class="btn-monu"><p><a href="quickview-trigoniou.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="khpoi passa">
+            <div class="img-monu">
+                <img src="images/passa.JPG" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Κήποι Πασσά</div>
+                <div class="btn-monu"><p><a href="quickview-passa.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+    
+        <div class="monument" id="arxaiologiko mouseio thessalonikis">
+            <div class="img-monu">
+                <img src="images/arx.png" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Αρχαιολογικό Θεσσαλονίκης</div>
+                <div class="btn-monu"><p><a href="quickview-arxaiologiko.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="agia sofia">
+            <div class="img-monu">
+                <img src="images/agiasofia.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Εκκλησία Αγίας Σοφίας</div>
+                <div class="btn-monu"><p><a href="quickview-agiasofia.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="leukos">
+            <div class="img-monu">
+                <img src="images/leukos_purgos.webp" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Λευκός Πύργος</div>
+                <div class="btn-monu"><p><a href="quickview-leukos.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="agios dimitrios">
+            <div class="img-monu">
+                <img src="images/ag.dimitrios.naos.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Ναός Αγιού Δημητρίου</div>
+                <div class="btn-monu"><p><a href="quickview-agiosdim.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="panagia xalkeon">
+            <div class="img-monu">
+                <img src="images/pxalkeon.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu"> Ναός Παναγίας Χαλκέων</div>
+                <div class="btn-monu"><p><a href="quickview-xalkeon.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="plateia arxaias agoras">
+            <div class="img-monu">
+                <img src="images/agora.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu"> Πλατεία Αρχαίας Αγοράς</div>
+                <div class="btn-monu"><p><a href="quickview-agora.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="pantelehmons">
+            <div class="img-monu">
+                <img src="images/pante.png" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu"> Ναός Αγίου Παντελεήμονα</div>
+                <div class="btn-monu"><p><a href="quickview-pante.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+        <div class="monument" id="aristoteleio">
+            <div class="img-monu">
+                <img src="images/aristoteleio.jpg" alt="">
+            </div>
+            <div class="text-monu">
+                <div class="title-monu">Αριστοτέλειο Πανεπιστήμιο</div>
+                <div class="btn-monu"><p><a href="quickview-aristoteleio.html">Ανακάλυψε τώρα</a></p></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script_monuments.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-image:url('../images_dark/salonika_dark.jpg');
+    background-size:cover;
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+  
+   
+    
+}
+
+
+
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(212, 212, 212);
+
+   
+   
+}
+
+.title{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.main-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.first-container{
+    margin-top: 270px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container{
+    margin: auto;
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    letter-spacing: 1px;
+
+}
+
+.images{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.images img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.text-container{
+    color: rgb(71, 71, 71);
+}
+
+.big_{
+    font-size: xx-large;
+    color: white;
+
+}
+
+.bold_{
+    font-weight: bolder;
+    color: rgb(255, 252, 252);
+}
+
+.btn-container{
+    margin-top: 40px ;
+    
+    
+
+}
+
+#btn-discover{
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    width: 10%;
+    height: 60%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(228, 190, 23);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: static;
+    }
+    .main-menu {
+        width: 80%; /* Adjust width for smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .big_ {
+        font-size: medium; /* Adjust font size for smaller screens */
+    }
+
+    .btn-container {
+        margin-top: 10px; /* Further adjust margin for smaller screens */
+    }
+
+    #btn-discover {
+        padding: 8px; /* Further adjust button padding for smaller screens */
+        font-size: small; /* Adjust font size for smaller screens */
+    }
+    
+}

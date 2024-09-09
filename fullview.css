@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(212, 212, 212);
+
+  
+   
+}
+
+.title{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+
+.main-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.main-body{
+    
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.img-container{
+    width: 50%;
+    margin: auto;
+}
+
+.img-container img{
+    width: 100%;
+    margin: auto;
+}
+
+.details{
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+#map-par{
+    margin-top:50px ;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#map-link{  
+    
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(228, 190, 23);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.question{
+    color:  rgb(228, 190, 23); 
+    margin-top: 50px;
+}
+
+.chat{
+    color: rgb(228, 190, 23) ;
+}
+
+
+.info{
+    font-size: x-large;
+    margin-top: 50px;
+    color: rgb(228, 190, 23) ;
+}
+.photos img{
+   
+    width: 700px;
+    margin-top: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: static;
+    }
+    .main-menu {
+        width: 80%; /* Adjust width for smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .search-bar{
+         position: static;
+         margin-top: 20px;
+    }
+
+}

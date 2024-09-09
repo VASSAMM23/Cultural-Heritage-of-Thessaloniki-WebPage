@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(212, 212, 212);
+
+  
+   
+}
+
+.title{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+
+.main-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.head{
+    font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.main{
+
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.main p{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.school{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.school-title{
+
+ color: white;
+ margin: 50px;
+ font-size: 22px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+img{
+    width: 290px;
+    height: 180px;
+}
+
+.info p{
+    margin-top: 60px;
+    color: white;
+}
+
+.info img{
+    margin-top: 60px;
+    height: 950px;
+    width: 1000px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: static;
+    }
+    .main-menu {
+        width: 80%; /* Adjust width for smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+}

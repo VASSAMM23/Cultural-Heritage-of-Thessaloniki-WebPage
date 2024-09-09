@@ -1,0 +1,176 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(212, 212, 212);
+
+   
+    
+}
+
+.title{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.main-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.monuments{
+    
+    width: 100vw;
+    
+    
+}
+
+.search-bar{
+    position: relative;
+    top: 20px;
+    left: 135px;
+   
+}
+
+.warning{
+    width: 45%;
+    color: white;
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+    left: 150px;
+    opacity: 0.4;
+}
+
+.warning p {
+    margin-left: 5px;
+}
+
+.search-bar input{
+    width: 220px;
+    height: 20px;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+#search-btn{
+    margin-left: 10px;
+    padding: 7px;
+    background-color: rgb(228, 190, 23) ;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.non-exist{
+    color: white;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    display: none;
+}
+
+.monument{
+    position: relative;
+    top: 120px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+
+
+.img-monu img{
+    width: 190px;
+    height: 150px;
+
+}
+
+.text-monu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-monu{
+    margin-top: 18px;
+}
+
+.btn-monu p{
+
+ background-color:  rgb(228, 190, 23);
+ padding: 10px;
+ border-radius: 6px;
+ border-style: none;
+ font-weight: 700;
+ cursor: pointer;
+ 
+
+}
+
+.btn-monu a{
+    text-decoration: none;
+    color: black;
+    width: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: static;
+    }
+    .main-menu {
+        width: 80%; /* Adjust width for smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .search-bar{
+         position: static;
+         margin-top: 20px;
+    }
+
+}

@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: scroll;
+
+    overflow-x: hidden;
+    background-image:url('../images/thess_kastra_darken.jpg');
+    background-size:cover;
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    
+}
+
+
+
+.container {
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(212, 212, 212);
+
+   
+}
+
+.title{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.main-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.maps{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.monument{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+
+}
+
+.text-monu{
+    color: white;
+    font-size: x-large;
+}
+
+.map{
+    
+   
+   
+}
+
+
+
+
+.btn-monu{
+    margin-top: 15px;
+}
+.btn-monu a{
+
+    padding: 12px;
+    text-decoration: none;
+    background-color:  rgb(228, 190, 23);
+    border-radius: 6px;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: static;
+    }
+    .main-menu {
+        width: 80%; /* Adjust width for smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .search-bar{
+         position: static;
+         margin-top: 20px;
+    }
+
+    .monument{
+        margin-top: 200px;
+        width: 1000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
+}
+
+
+
+

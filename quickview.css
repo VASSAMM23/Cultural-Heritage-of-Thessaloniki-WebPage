@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-color: black;
+}
+
+.quickview{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(212, 212, 212);
+
+    position:sticky;
+    top: 0; /* Stick the navbar to the top of the viewport */
+    z-index: 1000; /* Ensure the navbar stays above other content */
+   
+}
+
+.title{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+
+.main-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    color: white;
+}
+
+.img-container img{
+    width: 400px;
+    height: 340px;
+}
+
+.monument-name{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.info{
+    width: 450px;
+    letter-spacing: 1px;
+}
+
+.head{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.btn{
+
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+
+#btn-more{
+    
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(228, 190, 23);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: static;
+        margin: auto;
+       
+    }
+    .main-menu {
+        width: 80%; /* Adjust width for smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .head{
+        text-align: center;
+    }
+
+    .details{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .btn{
+        position: relative;
+        left: 170px;
+    }
+
+   
+
+
+
+}
